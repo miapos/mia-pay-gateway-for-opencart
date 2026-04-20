@@ -119,6 +119,13 @@
             </div>
 
             <div class="form-group">
+              <label class="col-sm-2 control-label" for="input-direct-redirect">{{ entry_direct_redirect }}</label>
+              <div class="col-sm-10">
+                <input type="checkbox" name="payment_mia_direct_redirect" value="1" id="input-direct-redirect" {% if _form.payment_mia_direct_redirect == '1' %}checked{% endif %} />
+              </div>
+            </div>
+
+            <div class="form-group">
               <label class="col-sm-2 control-label" for="input-language">{{ entry_language }}</label>
               <div class="col-sm-10">
                 <select name="payment_mia_language" id="input-language" class="form-control">

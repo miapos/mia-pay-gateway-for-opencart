@@ -105,6 +105,8 @@ class ControllerExtensionPaymentMia extends Controller
                 'language' => $this->config->get('payment_mia_language'),
                 'payDescription' => sprintf($this->language->get('text_order_description'), $order_id),
                 'paymentType' => $this->config->get('payment_mia_payment_type'),
+                'directRedirect' => $this->config->get('payment_mia_payment_type') === 'qr'
+                    && (bool)$this->config->get('payment_mia_direct_redirect'),
                 'clientName' => substr(trim($order_info['payment_firstname'] . ' ' . $order_info['payment_lastname']), 0, 128),
                 'clientPhone' => substr($order_info['telephone'], 0, 40),
                 'clientEmail' => $order_info['email'],

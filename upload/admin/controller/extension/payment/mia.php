@@ -135,6 +135,7 @@ class ControllerExtensionPaymentMia extends Controller {
             'payment_mia_terminal_id' => '',
             'payment_mia_base_url' => 'https://ecomm.mia-pos.md',
             'payment_mia_payment_type' => 'qr',
+            'payment_mia_direct_redirect' => 0,
             'payment_mia_language' => 'ro',
             'payment_mia_order_pending_status_id' => 1,
             'payment_mia_order_success_status_id' => 2,
