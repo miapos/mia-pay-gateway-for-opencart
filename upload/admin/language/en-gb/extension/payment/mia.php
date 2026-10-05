@@ -47,6 +47,7 @@ $_['button_cancel'] = 'Cancel';
 // Error
 $_['error_permission'] = 'Warning: You do not have permission to modify MIA POS payment settings!';
 $_['error_empty_field'] = 'This field is required.';
+$_['error_form'] = 'Warning: Please check the form for errors.';
 
 
 // Legend

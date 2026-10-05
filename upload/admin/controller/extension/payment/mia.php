@@ -82,6 +82,10 @@ class ControllerExtensionPaymentMia extends Controller {
             }
         }
 
+        if ($this->error && !isset($this->error['warning'])) {
+            $this->error['warning'] = $this->language->get('error_form');
+        }
+
         return empty($this->error);
     }
 
