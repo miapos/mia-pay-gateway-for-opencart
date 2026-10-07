@@ -23,6 +23,7 @@ $_['entry_secret_key'] = 'Secret Key';
 $_['entry_terminal_id'] = 'Terminal ID';
 $_['entry_base_url'] = 'API Base URL';
 $_['entry_payment_type'] = 'Payment Type';
+$_['entry_direct_redirect'] = 'Direct Redirect';
 $_['entry_language'] = 'Language';
 $_['entry_order_pending_status'] = 'Pending Order Status';
 $_['entry_order_success_status'] = 'Success Order Status';

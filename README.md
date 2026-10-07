@@ -44,6 +44,7 @@ This plugin integrates MIA POS as a payment method in your OpenCart store. MIA P
 
 ### Optional Parameters
 
+- **Direct Redirect**: When enabled and Payment Type is QR, mobile users are automatically redirected to the banking app when the checkout page opens, without needing to tap a button manually. The page continues polling payment status in the background and redirects to the success/fail URL upon completion.
 - **Order Status Settings: Payment Pending** - The order status when the payment is pending.
 - **Order Status Settings: Payment Success** - The order status after successful payment.
 - **Order Status Settings: Payment Failed** - The order status when the payment fails.

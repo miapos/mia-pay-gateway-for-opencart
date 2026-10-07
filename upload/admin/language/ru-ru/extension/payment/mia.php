@@ -23,6 +23,7 @@ $_['entry_secret_key'] = 'Секретный ключ';
 $_['entry_terminal_id'] = 'ID Терминала';
 $_['entry_base_url'] = 'Базовый URL API';
 $_['entry_payment_type'] = 'Тип оплаты';
+$_['entry_direct_redirect'] = 'Прямой редирект';
 $_['entry_language'] = 'Язык';
 $_['entry_order_pending_status'] = 'Статус ожидающего заказа';
 $_['entry_order_success_status'] = 'Статус успешного заказа';

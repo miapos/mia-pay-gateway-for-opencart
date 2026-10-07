@@ -44,6 +44,8 @@ Acest plugin integrează MIA POS ca metodă de plată în magazinul dvs. OpenCar
 
 ### Parametri opționali
 
+- **Redirect Direct**: Când este activat și tipul de plată este QR, utilizatorii mobili sunt redirecționați automat către aplicația bancară la deschiderea paginii de checkout, fără a fi necesară apăsarea manuală a unui buton. Pagina continuă să verifice statusul plății în fundal și redirecționează către URL-ul de succes/eșec la finalizare.
+
 - **Setări status comandă: Plată în așteptare** - Statusul comenzii atunci când plata este în așteptare.
 - **Setări status comandă: Plată reușită** - Statusul comenzii după finalizarea cu succes a plății.
 - **Setări status comandă: Plată eșuată** - Statusul comenzii când plata eșuează.

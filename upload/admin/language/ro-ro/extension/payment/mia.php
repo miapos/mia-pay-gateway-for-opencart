@@ -23,6 +23,7 @@ $_['entry_secret_key'] = 'Cheie Secretă';
 $_['entry_terminal_id'] = 'ID Terminal';
 $_['entry_base_url'] = 'URL API de bază';
 $_['entry_payment_type'] = 'Tip de Plată';
+$_['entry_direct_redirect'] = 'Redirect Direct';
 $_['entry_language'] = 'Limbă';
 $_['entry_order_pending_status'] = 'Status Comandă În Așteptare';
 $_['entry_order_success_status'] = 'Status Comandă Finalizată';
