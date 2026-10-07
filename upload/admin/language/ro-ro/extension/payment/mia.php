@@ -47,8 +47,9 @@ $_['button_cancel'] = 'Anulează';
 // Error
 $_['error_permission'] = 'Avertisment: Nu aveți permisiunea de a modifica setările MIA POS!';
 $_['error_empty_field'] = 'Acest câmp este obligatoriu.';
+$_['error_form'] = 'Avertisment: Verificați câmpurile formularului.';
 
 // Legend
-$_['legend_setting'] = 'Setãri generale';
-$_['legend_api'] = 'Setãri pentru comerciant';
-$_['legend_status'] = 'Setãri stare comandã';
+$_['legend_setting'] = 'Setări generale';
+$_['legend_api'] = 'Setări pentru comerciant';
+$_['legend_status'] = 'Setări stare comandă';

@@ -407,10 +407,10 @@ class ControllerExtensionPaymentMia extends Controller
 
         $orderNote = sprintf($this->language->get('text_payment_pending'), $payId, $state);
 
-        $orderStatusId = config->get('payment_mia_order_pending_status_id');
+        $orderStatusId = $this->config->get('payment_mia_order_pending_status_id');
         $this->model_checkout_order->addOrderHistory(
             $orderId,
-            $this->$orderStatusId,
+            $orderStatusId,
             $orderNote,
             false
         );

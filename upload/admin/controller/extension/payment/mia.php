@@ -82,6 +82,10 @@ class ControllerExtensionPaymentMia extends Controller {
             }
         }
 
+        if ($this->error && !isset($this->error['warning'])) {
+            $this->error['warning'] = $this->language->get('error_form');
+        }
+
         return empty($this->error);
     }
 
@@ -133,7 +137,7 @@ class ControllerExtensionPaymentMia extends Controller {
             'payment_mia_merchant_id' => '',
             'payment_mia_secret_key' => '',
             'payment_mia_terminal_id' => '',
-            'payment_mia_base_url' => 'https://ecomm.mia-pos.md',
+            'payment_mia_base_url' => '',
             'payment_mia_payment_type' => 'qr',
             'payment_mia_direct_redirect' => 0,
             'payment_mia_language' => 'ro',
